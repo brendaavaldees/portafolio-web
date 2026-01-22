@@ -1,6 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap");
 @import "tailwindcss";
 
-:root {
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -23,4 +24,14 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+} */
+
+@theme {
+  --font-title: "Balsamiq Sans", sans-serif;
+  --color-title: #4a3b32;
+  --color-purple-complement: #E3D3FB
+}
+
+body {
+  background: url("../../public/assets/cute-green-spiral-bg.gif");
 }
